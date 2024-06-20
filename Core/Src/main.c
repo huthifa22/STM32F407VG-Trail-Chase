@@ -60,7 +60,7 @@ int main(void) {
             uint32_t button_press_time = HAL_GetTick();
 
             if ((leds[current_led] == RED_LED1 || leds[current_led] == RED_LED2)) {
-                if (button_press_time - led_change_time <= 160) { //When LED turned on Minus when pressed
+                if (button_press_time - led_change_time <= 2000) { //When LED turned on Minus when pressed
                     hit();
                 } else {
                     reset_game();
@@ -140,11 +140,16 @@ void reset_game(void) {
     //Blink 3 Times to show restart
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < num_leds; j++) {
-            toggle_led(GPIO_PIN_SET, leds[j]);
+        	 if (j < 3 || j > 5) {
+        		toggle_led(GPIO_PIN_SET, leds[j]);
+        	}
+
         }
         HAL_Delay(100);
         for (int j = 0; j < num_leds; j++) {
-            toggle_led(GPIO_PIN_RESET, leds[j]);
+        	 if (j < 3 || j > 5) {
+        		toggle_led(GPIO_PIN_RESET, leds[j]);
+        	}
         }
         HAL_Delay(100);
     }

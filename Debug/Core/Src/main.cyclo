@@ -3,5 +3,5 @@
 ../Core/Src/main.c:98:6:Button_Init	1
 ../Core/Src/main.c:112:6:toggle_led	1
 ../Core/Src/main.c:116:6:hit	3
-../Core/Src/main.c:134:6:reset_game	6
-../Core/Src/main.c:164:6:EXTI0_IRQHandler	3
+../Core/Src/main.c:134:6:reset_game	10
+../Core/Src/main.c:169:6:EXTI0_IRQHandler	3
