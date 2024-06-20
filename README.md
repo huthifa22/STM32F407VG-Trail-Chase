@@ -29,6 +29,5 @@ This project implements a TrailChase game using an STM32F407VG microcontroller. 
 
 
 
-
-https://github.com/huthifa22/STM32F407VG-Trail-Chase/assets/105901978/673d9e17-2b4d-4e89-a497-0ce9d27c716e
+https://github.com/huthifa22/STM32F407VG-Trail-Chase/assets/105901978/d24d1783-9db0-46e5-b861-60515993df49
 
