@@ -28,6 +28,7 @@ This project implements a TrailChase game using an STM32F407VG microcontroller. 
 - PA8: Red2 LED output
 
 
+![Circuit Diagram](https://github.com/huthifa22/STM32F407VG-Trail-Chase/assets/105901978/a40ae113-717d-456e-950a-0d7e4a76ef51)
 
 https://github.com/huthifa22/STM32F407VG-Trail-Chase/assets/105901978/d24d1783-9db0-46e5-b861-60515993df49
 
